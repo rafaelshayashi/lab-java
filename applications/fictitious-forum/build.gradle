@@ -1,17 +1,16 @@
+import com.github.spotbugs.snom.SpotBugsTask
+
 plugins {
     id 'org.springframework.boot' version '3.2.11'
     id 'io.spring.dependency-management' version '1.1.6'
     id 'java'
+    id 'com.github.spotbugs' version '5.0.12'
 }
 
 group = 'dev.rafaelhayashi'
 version = '0.0.1-SNAPSHOT'
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-    }
-}
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
 
 configurations {
     compileOnly {
@@ -30,11 +29,22 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     runtimeOnly 'com.h2database:h2'
-    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-test {
+tasks.named('test') {
     useJUnitPlatform()
+}
+
+tasks.withType(SpotBugsTask).configureEach {
+    reports {
+        xml {
+            enabled = true
+        }
+        html {
+            enabled = true
+        }
+    }
 }
