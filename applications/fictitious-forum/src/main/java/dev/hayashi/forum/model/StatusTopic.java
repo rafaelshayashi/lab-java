@@ -1,4 +1,4 @@
-package dev.rafaelhayashi.fictitiousforum.model;
+package dev.hayashi.forum.model;
 
 public enum StatusTopic {
     DRAFT,

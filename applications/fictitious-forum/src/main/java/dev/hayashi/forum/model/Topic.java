@@ -1,4 +1,4 @@
-package dev.rafaelhayashi.fictitiousforum.model;
+package dev.hayashi.forum.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

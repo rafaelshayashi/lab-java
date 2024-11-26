@@ -1,10 +1,10 @@
-package dev.rafaelhayashi.fictitiousforum;
+package dev.hayashi.forum;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FictitiousForumApplicationTests {
+class ForumApplicationTests {
 
     @Test
     void contextLoads() {

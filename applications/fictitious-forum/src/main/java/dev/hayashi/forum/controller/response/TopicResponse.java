@@ -1,7 +1,7 @@
-package dev.rafaelhayashi.fictitiousforum.controller.response;
+package dev.hayashi.forum.controller.response;
 
-import dev.rafaelhayashi.fictitiousforum.model.StatusTopic;
-import dev.rafaelhayashi.fictitiousforum.model.Topic;
+import dev.hayashi.forum.model.StatusTopic;
+import dev.hayashi.forum.model.Topic;
 import lombok.Getter;
 import org.springframework.data.domain.Page;
 

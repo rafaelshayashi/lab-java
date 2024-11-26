@@ -1,6 +1,6 @@
-package dev.rafaelhayashi.fictitiousforum.controller.request;
+package dev.hayashi.forum.controller.request;
 
-import dev.rafaelhayashi.fictitiousforum.model.Topic;
+import dev.hayashi.forum.model.Topic;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.Setter;

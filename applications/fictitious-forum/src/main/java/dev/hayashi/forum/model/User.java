@@ -1,4 +1,4 @@
-package dev.rafaelhayashi.fictitiousforum.model;
+package dev.hayashi.forum.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -7,7 +7,7 @@ plugins {
     id 'com.github.spotbugs' version '5.0.12'
 }
 
-group = 'dev.rafaelhayashi'
+group = 'dev.hayashi'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17

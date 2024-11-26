@@ -1,13 +1,13 @@
-package dev.rafaelhayashi.fictitiousforum;
+package dev.hayashi.forum;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FictitiousForumApplication {
+public class ForumApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FictitiousForumApplication.class, args);
+        SpringApplication.run(ForumApplication.class, args);
     }
 
 }

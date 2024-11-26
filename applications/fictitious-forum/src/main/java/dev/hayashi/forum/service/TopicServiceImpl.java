@@ -1,8 +1,8 @@
-package dev.rafaelhayashi.fictitiousforum.service;
+package dev.hayashi.forum.service;
 
-import dev.rafaelhayashi.fictitiousforum.controller.request.TopicRequest;
-import dev.rafaelhayashi.fictitiousforum.model.Topic;
-import dev.rafaelhayashi.fictitiousforum.repository.TopicRepository;
+import dev.hayashi.forum.controller.request.TopicRequest;
+import dev.hayashi.forum.model.Topic;
+import dev.hayashi.forum.repository.TopicRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
