@@ -1,4 +1,4 @@
-package dev.rafaelhayashi.model;
+package dev.hayashi.model;
 
 public class Pessoa {
 

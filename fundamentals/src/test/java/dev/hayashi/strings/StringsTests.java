@@ -1,4 +1,4 @@
-package dev.rafaelhayashi.strings;
+package dev.hayashi.strings;
 
 import org.junit.jupiter.api.Test;
 

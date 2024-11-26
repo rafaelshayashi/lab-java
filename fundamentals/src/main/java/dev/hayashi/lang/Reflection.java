@@ -1,4 +1,4 @@
-package dev.rafaelhayashi.lang;
+package dev.hayashi.lang;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
